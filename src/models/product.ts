@@ -7,5 +7,9 @@ import {
 @Entity()
 export class Product extends MedusaProduct {
   @Column()
-  customAttribute: string
+  grape: string
+  @Column()
+  alchool: number
+  @Column()
+  year: number
 }

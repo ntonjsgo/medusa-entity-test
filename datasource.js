@@ -6,9 +6,6 @@ const AppDataSource = new DataSource({
   username: "postgres",
   password: "",
   database: "medusa-db-53kkv",
-  entities: [
-    "dist/models/*.js",
-  ],
   migrations: [
     "dist/migrations/*.js",
   ],
